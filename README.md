@@ -20,7 +20,7 @@ Ask your agent inside Herdr: *"Add the mod at github.com/Umupa/herdr-better-icon
 ```sh
 git clone https://github.com/Umupa/herdr-better-icons.git
 cp -R herdr-better-icons/mods/better-icons ~/.config/herdr-app/mods/
-cp herdr-better-icons/layouts/main-better-icons.json ~/.config/herdr-app/layouts/
+cp herdr-better-icons/extras/main-better-icons.json ~/.config/herdr-app/layouts/
 herdr-app do layout.switch --name main-better-icons
 ```
 
@@ -45,7 +45,7 @@ Optional key for the dialog, in `~/.config/herdr-app/keys.json`: `"cmd-shift-i":
 
 ## Uninstall
 
-Switch to another layout, then delete `mods/better-icons/`, `layouts/main-better-icons.json` and the `mods/better-icons/...` entries in `programs.json`.
+Switch to another layout, then delete `mods/better-icons/`, `layouts/main-better-icons.json` (if you copied it) and the `mods/better-icons/...` entries in `programs.json`.
 
 ## Credits
 

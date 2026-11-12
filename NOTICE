@@ -5,7 +5,7 @@ herdr-app's defaults/mods/spaces/main.js and defaults/mods/menu/main.js, and
 mods/better-icons/tabbar.js from defaults/mods/tabs/main.js, at herdr-app
 0.1.15 (commit 17eac390c346a731ba1ac14816ad91dc7cd2209b),
 https://github.com/herdrdev/herdr-app, licensed under Apache-2.0 (LICENSE).
-Changes are marked "better-icons" in the files. layouts/main-better-icons.json
+Changes are marked "better-icons" in the files. extras/main-better-icons.json
 is herdr-app's defaults/layouts/main.json with two blocks pointed at this mod.
 
 mods/better-icons/agents/*.svg are from LobeHub icons,
