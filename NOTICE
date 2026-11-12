@@ -1,0 +1,24 @@
+Better Icons for Herdr
+
+mods/better-icons/sidebar.js and mods/better-icons/menu.js are adapted from
+herdr-app's defaults/mods/spaces/main.js and defaults/mods/menu/main.js, and
+mods/better-icons/tabbar.js from defaults/mods/tabs/main.js, at herdr-app
+0.1.15 (commit 17eac390c346a731ba1ac14816ad91dc7cd2209b),
+https://github.com/herdrdev/herdr-app, licensed under Apache-2.0 (LICENSE).
+Changes are marked "better-icons" in the files. layouts/main-better-icons.json
+is herdr-app's defaults/layouts/main.json with two blocks pointed at this mod.
+
+mods/better-icons/agents/*.svg are from LobeHub icons,
+https://github.com/lobehub/lobe-icons/tree/master/packages/static-svg/icons
+(MIT, mods/better-icons/agents/LICENSE). The SVG wrapper was simplified and
+given a 2px margin; paths and colors are unchanged. codex.svg is openai.svg,
+copilot.svg is githubcopilot.svg, hermes.svg is hermesagent.svg,
+mastracode.svg is mastra.svg, muse.svg is meta-color.svg; the others use the
+agent's own name, with the -color variant where one exists.
+
+mods/better-icons/icons/ glyphs are Lucide, https://lucide.dev (ISC,
+mods/better-icons/icons/LICENSE), except octicon-git-compare.svg, from GitHub
+Octicons, https://github.com/primer/octicons (MIT,
+mods/better-icons/icons/LICENSE-octicons), and files.svg, original artwork.
+
+Brand marks identify their products and remain their owners' trademarks.
